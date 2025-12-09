@@ -225,6 +225,16 @@ body{
     }
 }
 
+.blog-header {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/blog-header-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.main-blog-header {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/main-blog-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .about-header{
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/about-banner.jpg) center center no-repeat;
     background-size: cover;
@@ -241,7 +251,7 @@ body{
 }
 
 .fillers-header{
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/fillers-banner.jpg) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banners/fillers.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -293,6 +303,11 @@ body{
 
 
 /*** Features ***/
+.blog-feature {
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/blog-feature-bg.jpg) left center no-repeat;
+    background-size: cover;
+}
+
 .feature {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/feature-bg.jpg) left center no-repeat;
     background-size: cover;
